@@ -1,0 +1,36 @@
+* {
+    margin: 20px;
+    margin-top: 30px;
+    padding: 0;
+}
+#info {
+    line-height: 0px;
+}
+#myimage img {
+    position: absolute;
+    right: 430px;
+    top: -10px;
+    border: 3px solid;
+    border-radius: 50%;
+}
+#obj {
+    text-decoration: underline;
+    text-indent: 40px;
+}
+#perso {
+    text-decoration: underline;
+    text-indent: 40px;
+}
+
+td {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#educ {
+    text-decoration: underline;
+    text-indent: 40px;
+}
+th {
+    text-align: center;
+}
+
