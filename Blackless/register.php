@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Registration Form </title>
+        <link rel="stylesheet" href="register.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        
+        <div class="wrapper">
+            <form action="register_process.php" method="post">
+                <h1>Registration</h1>
+
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" name = "FullName" placeholder="FullName"
+                        required>
+                        <i class='bx bxs-user'></i>
+                        
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" name = "Username" placeholder="Username"
+                        required>
+                        <i class='bx bxs-user'></i>
+                    </div>
+                </div>
+                
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="email" name = "Email" placeholder="Email"
+                        required>
+                        <i class='bx bxs-envelope'></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" name = "PhoneNumber" placeholder="Phone Number"
+                        required>
+                        <i class='bx bxs-phone'></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="password" name = "Password" placeholder="Password"
+                        required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" name = "password"  placeholder="Confirm Password"
+                        required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                </div>
+
+                    <label><input type="checkbox"> I herby declare that the above information
+                    provided is true and correct</label>
+                
+                <a href="login.php">
+                <button type="submit" class="btn">Register</button></a>
+            </form>
+
+      </div>
+
+
+    </body>
+    </html>
