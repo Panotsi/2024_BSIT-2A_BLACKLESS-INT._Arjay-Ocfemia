@@ -11,7 +11,6 @@
     </head>
 
     <body>
-        
         <div class="wrapper">
             <form action="register_process.php" method="post">
                 <h1>Registration</h1>
@@ -59,9 +58,9 @@
                     </div>
                 </div>
 
-                    <label><input type="checkbox"> I herby declare that the above information
-                    provided is true and correct</label>
-                
+                <p>Already have an Account?<a href="login.php"> Login</p>
+                <p>Go to<a href="home.php"> Home</p>
+
                 <a href="login.php">
                 <button type="submit" class="btn">Register</button></a>
             </form>
