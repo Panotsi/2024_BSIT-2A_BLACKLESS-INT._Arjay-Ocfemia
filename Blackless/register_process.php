@@ -20,7 +20,7 @@
         $sql = "INSERT INTO `users`(`user_id`, `user_name`, `fullname`, `email`, `phone_number`, `password`) 
         VALUES ('[value-1]','$uname','$fname','$mail','$numb','$pass')";
         
-        header("Location: login.php");
+        header("Location: Home.php");
 
 
         mysqli_query($conn, $sql);

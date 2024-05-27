@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Registration Form </title>
-        <link rel="stylesheet" href="register.css">
+        <link rel="stylesheet" href="Style/register.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 
@@ -57,10 +57,10 @@
                         <i class='bx bxs-lock-alt'></i>
                     </div>
                 </div>
-
-                <p>Already have an Account?<a href="login.php"> Login</p>
-                <p>Go to<a href="home.php"> Home</p>
-
+                <div class="links">
+                    <p>Already have an Account?<a href="login.php"> Login</p>
+                    <p><a href="home.php">Go to Home</p>
+                </div>
                 <a href="login.php">
                 <button type="submit" class="btn">Register</button></a>
             </form>

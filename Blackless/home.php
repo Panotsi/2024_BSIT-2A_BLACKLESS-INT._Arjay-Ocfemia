@@ -2,10 +2,10 @@
 <html>
     <head>
         <Title>Home</Title>
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="Style/home.css">
     </head>
     <body>
-        <div id="head"><h1>Franks Cafe</h1></div>
+        <div id="head"><h1>Frank's Cafe</h1></div>
         <div class="container">
             <nav>
                 <ul>
@@ -14,7 +14,7 @@
                 </ul>
             </nav>
         </div>
-        <img src="logo.png" id="logo">
+        <img src="Style/logo.png" id="logo">
         
         <div id="message">
             <pre>
@@ -22,6 +22,13 @@
             a beverage; it encompasses culture, 
             economy, art, science, and passion.
             </pre>
-        </div>  
+        </div>
+        <div id="product">
+            <nav>
+                <ul>
+                    <li><a href="Products.php">View Products</a></li>
+                </ul>
+            </nav>
+        </div>
     </body>
 </html>
